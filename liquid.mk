@@ -21,12 +21,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from d851 device
 $(call inherit-product, device/lge/d851/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common LiquidRemix stuff.
+$(call inherit-product, vendor/liquid/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_DEVICE := d851
-PRODUCT_NAME := lineage_d851
+PRODUCT_NAME := liquid_d851
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LG-D851
 PRODUCT_MANUFACTURER := LGE
