@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_d851.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosp_d851-userdebug \
+    aosp_d851-eng \
+    aosp_d851-user
